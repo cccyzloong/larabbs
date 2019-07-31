@@ -12,8 +12,10 @@
 */
 
 /* Route::get('/', function () {
-    return view('welcome');
+    //return view('welcome');
+    echo phpinfo();
 }); */
+
 Route::get('/','PagesController@root')->name('root');
 
 //Auth::routes();
