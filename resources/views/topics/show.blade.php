@@ -43,7 +43,7 @@
             {!! $topic->body !!}
           </div>
 
-          @can('update', $topic)
+          @can('own', $topic)
             <div class="operate">
               <hr>
               <a href="{{ route('topics.edit', $topic->id) }}" class="btn btn-outline-secondary btn-sm" role="button">
