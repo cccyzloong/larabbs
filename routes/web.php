@@ -55,4 +55,5 @@ Route::resource('replies', 'RepliesController', ['only' => ['store','destroy']])
 //回复消息通知
 Route::resource('notifications', 'NotificationsController', ['only' => ['index']]);
 //没有权限跳转到此路由
+
 Route::get('permission-denied', 'PagesController@permissionDenied')->name('permission-denied');
