@@ -11,11 +11,11 @@
 |
 */
 
-// Route::get('/', function () {
-//     //return view('welcome');
-//     //echo phpinfo();
-//     echo md5('!roger1984');
-// });
+/* Route::get('/', function () {
+    //return view('welcome');
+    //echo phpinfo();
+    echo decrypt('$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
+}); */
 
 Route::get('/','PagesController@root')->name('root');
 
