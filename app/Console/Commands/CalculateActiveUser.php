@@ -41,7 +41,7 @@ class CalculateActiveUser extends Command
         //
          // 在命令行打印一行信息
          $this->info("开始计算...");
-
+         Log::info('测试调度器是否执行');
          $user->calculateAndCacheActiveUsers();
 
          $this->info("成功生成！");
