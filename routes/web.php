@@ -17,8 +17,8 @@
     echo decrypt('$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
 }); */
 
-Route::get('/','PagesController@root')->name('root');
-
+//Route::get('/','PagesController@root')->name('root');
+Route::get('/', 'TopicsController@index')->name('root');
 //Auth::routes();
 // 用户身份验证相关的路由
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
