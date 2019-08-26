@@ -12,12 +12,12 @@ class UsersTableSeeder extends Seeder
 
         // 头像假数据
         $avatars = [
-            'https://cdn.learnku.com/uploads/images/201710/14/1/s5ehp11z6s.png',
-            'https://cdn.learnku.com/uploads/images/201710/14/1/Lhd1SHqu86.png',
-            'https://cdn.learnku.com/uploads/images/201710/14/1/LOnMrqbHJn.png',
-            'https://cdn.learnku.com/uploads/images/201710/14/1/xAuDMxteQy.png',
-            'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png',
-            'https://cdn.learnku.com/uploads/images/201710/14/1/NDnzMutoxX.png',
+            'http://cdn.leoh.io/images/base_zero/image_218.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_219.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_220.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_200.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_201.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_202.jpg',
         ];
 
         // 生成数据集合
