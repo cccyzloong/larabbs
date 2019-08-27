@@ -18,6 +18,15 @@ class UsersTableSeeder extends Seeder
             'http://cdn.leoh.io/images/base_zero/image_200.jpg',
             'http://cdn.leoh.io/images/base_zero/image_201.jpg',
             'http://cdn.leoh.io/images/base_zero/image_202.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_108.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_109.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_110.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_111.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_112.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_113.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_114.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_115.jpg',
+            'http://cdn.leoh.io/images/base_zero/image_116.jpg',
         ];
 
         // 生成数据集合
@@ -41,7 +50,7 @@ class UsersTableSeeder extends Seeder
         $user = User::find(1);
         $user->name = 'Summer';
         $user->email = 'summer@example.com';
-        $user->avatar = 'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png';
+        $user->avatar = 'http://cdn.leoh.io/images/base_zero/image_218.jpg';
         $user->save();
         // 初始化用户角色，将 1 号用户指派为『站长』
         $user->assignRole('Founder');
